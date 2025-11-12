@@ -1,0 +1,6 @@
+// const friends: string[]=["mr-x","mr-y","mr-z"]
+const friends: Array<string>=["mr-x","mr-y","mr-z"]
+// const num:number[]=[4,7,11]
+const num:Array<number>=[4,7,11]
+// const isel:boolean[]=[true,false,true]
+const isel: Array<boolean>=[true,false,true]
