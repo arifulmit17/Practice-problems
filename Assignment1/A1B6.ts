@@ -114,17 +114,23 @@ printBookDetails(myBook);
 
 // ******************************************************
 type arrayType=(string|number)[]
+
 function getUniqueValues(array1: arrayType, array2: arrayType) : arrayType{
    const array3=[...array1]
    for (let i of array2) {
-    console.log("i=",i);
+    let isPresent=false
+    
     for(let j of array3){
-         console.log("j=",j);
-        if(j!=i){
-            array3.push(i)
         
+        if(j==i){
+            
+            isPresent=true
      }
-
+    
+    }
+    if(isPresent==false){
+        
+      array3.push(i)
     }
      
 }
